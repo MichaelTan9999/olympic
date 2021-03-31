@@ -1,0 +1,126 @@
+[
+    {
+        "id": 0,
+        "name": "Archery",
+        "icon": "archery",
+        "athlete": "archery-athlete",
+        "brief": "Archery, one of the oldest sports still practiced, is closely linked to the development of civilisation. As a cultural advance, it was comparable to the discovery of fire and the invention of the wheel.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "Archery in battle",
+                "content": "In 1200 BC the Hittites and Assyrians shot their bows from chariots, becoming fearsome opponents in battle. They made their bows with tendon, horn and wood and also developed a new re-curved shape. This made their bows shorter and more powerful, making them easier to handle for an archer on horseback."
+            },
+            {
+                "id": 1,
+                "title": "A noble history",
+                "content": "Archery was the favourite sport of the Egyptian pharaohs during the 18th dynasty (1567-1320 BC). Many centuries later, some of the earliest recorded archery tournaments took place during the Zhou (Chou) dynasty (1027- 256 BC) in China. Such events were attended by Chinese nobility. Much later, English writers honoured the longbow for famous contributions to their country’s victories in the battles of Crécy, Agincourt and Poitiers."
+            },
+            {
+                "id": 2,
+                "title": "Most decorated archer",
+                "content": "Archery first appeared in the Olympic Games in 1900, was contested again in 1904, 1908 and 1920, then again, after an absence of 52 years, from 1972 to the present. The most decorated archer in Olympic history is Hubert Van Innis of Belgium who competed in 1900 and 1920, winning six gold and three silver medals."
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Athletics",
+        "icon": "athletics",
+        "athlete": "athletics-athletes",
+        "brief": "Athletics was contested in the first ancient olympic games, and champions have been recorded from as far back as 776 BC.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "First and original",
+                "content": "Throughout recorded sports history, athletics has always been practised. The first event contested in the ancient Olympic Games was the “stadium” race, a sprint of about 192 metres. Winners in this event have been recorded from as far back as 776 BC."
+            },
+            {
+                "id": 1,
+                "title": "Ancient events",
+                "content": "Much like today, the ancient Olympic Games included a wide variety of track and field events. Such events included longer foot races, a race in armour, and a pentathlon event that consisted of the “stadium” race, long jump, discus throw, javelin throw and wrestling."
+            },
+            {
+                "id": 2,
+                "title": "Across the globe",
+                "content": "Similar events were held in ancient Greece at the Isthmian, Nemean and Pythian Games. Throughout Europe, local fairs and festivals often included running, jumping and throwing events. In Ireland and Scotland, these developed into organised sets of Tailteann and Highland Games, respectively. There was also a tradition of “pedestrian” events – often with heavy betting involved – in the 18th and 19 centuries, especially in Great Britain, which normally involved walking or running races."
+            },
+            {
+                "id": 3,
+                "title": "Modern organisation",
+                "content": "The modern format of athletics, in which a variety of running, jumping, throwing, walking and combined events are competed at a single “meeting” or “meet”, evolved in the late 19th century, when schools and military colleges began to incorporate sports and exercise as part of education programmes. The earliest recorded meeting dates back to 1840 in Shropshire, England, but specialised championships began to thrive in the 1880s in the USA, UK, and throughout Europe, as well as in other developed nations."
+            },
+            {
+                "id": 4,
+                "title": "Olympic history",
+                "content": "Since 1896, athletics has been on the programme of each edition of the Games of the Olympiad. Its presence on the Games programme has allowed its popularity to increase across the world. This popularity was also strengthened by the creation of the IAAF in 1912. Women’s events appeared for the first time at the 1928 Olympic Games in Amsterdam, while the men’s programme was standardised as of the 1932 Games in Los Angeles. Although at the beginning women were authorised to participate in only some events, today their programme is almost identical to that of the men.\n\nThe 1960s saw a boom in athletics in developing countries, with the success of African runners and sprinters of Caribbean origin. Americans have for a long time reigned over men’s athletics, although European nations have also dominated. For the women, the Soviet Union and the GDR (East Germany) dominated the competitions before their dissolution.\n\nMore recently, high-level Asian athletes have risen up the ranks. At the 2008 Olympic Games in Beijing, athletes from 62 countries competed in the finals."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Badminton",
+        "icon": "badminton",
+        "athlete": "badminton-athletes",
+        "brief": "Badminton has a cosmopolitan history. The rules of the modern game were developed in england, but it is now Asian countries that dominate the sport.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "Badminton house",
+                "content": "Badminton takes its name from Badminton House - home of the Duke of Beaufort in the English county of Gloucestershire. In 1873, the Duke is credited with bringing a version of the game – Poona - back from India and introducing it to his guests."
+            },
+            {
+                "id": 1,
+                "title": "Getting organised",
+                "content": "The sport quickly grew in popularity and in 1877 the first set of written rules were devised by the newly formed Bath Badminton Club. The Badminton Federation of England was created 16 years later and in 1899 it organised the first All England Championships."
+            },
+            {
+                "id": 2,
+                "title": "Olympic history",
+                "content": "Badminton made its debut as a demonstration sport at the 1972 Olympic Games in Munich. It was not until the 1992 Games in Barcelona that it was officially included on the Olympic programme, with men’s and women’s singles and doubles events. The mixed doubles event made its debut in 1996 at the Atlanta Olympic Games. Since then, the number of events has remained unchanged.\n\nAlthough the creation of modern badminton is attributed to England, it is Asia that now dominates this sport. Between 1992 and 2008, Asian countries won 69 of the 76 medals available in Olympic competition! The dominant countries are China, Indonesia and the Republic of Korea, followed by Great Britain and Denmark."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Basketball",
+        "icon": "basketball",
+        "athlete": "basketball-athletes",
+        "brief": "Basketball is a relatively new sport, invented in 1891. It has now grown into one of the most popular sports in the united states.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "Keeping students fit",
+                "content": "Basketball was invented in December 1891 by Canadian James W. Naismith. An instructor at the YMCA Training School in Massachusetts, he sought a suitable indoor game to keep his students fit and warm during the cold New England winters. He formulated 13 rules, most of which still apply today. In 1893, the first women’s game was played at the Smith College, in Northampton, Massachusetts, USA."
+            },
+            {
+                "id": 1,
+                "title": "Peach baskets",
+                "content": "Originally, basketball was played with peach baskets and balls had to be retrieved manually after each score. Subsequently, a hole was drilled into the bottom of the basket allowing the balls to be poked out with a long rod. In 1906, the peach baskets were finally replaced by metal hoops with backboards."
+            },
+            {
+                "id": 2,
+                "title": "Orange ball",
+                "content": "Basketball was originally played with a soccer ball. The first balls made specifically for basketball were brown, and it was only in the late 1950s that Tony Hinkle, searching for a ball that would be more visible to players and spectators alike, introduced the orange ball that is now in common use."
+            },
+            {
+                "id": 3,
+                "title": "Global popularity increases",
+                "content": "In the early 1900s, students from abroad who had studied in Springfield, started to spread the game. In the 1920s, the first international games were played and by 1950 the first World Championship for Men was held in Argentina. Three years later, in 1953, the first World Championship for Women took place in Chile."
+            },
+            {
+                "id": 4,
+                "title": "Olympic history",
+                "content": "Basketball made its appearance at the Olympic Games in 1904 in St Louis as a demonstration sport, as the competition was held between only American teams and counted as an event of the Amateur Athletic Union (AAU of the USA) Championships. At the Games in 1936 in Berlin, basketball joined the Olympic programme, where it has remained to this day. Women’s basketball debuted at the 1976 Games in Montreal.\n\nThe USA dominates international basketball and won all the titles up to 1972, the year it was defeated by the Soviet Union at the Munich Games. In the women’s event, the Soviets took gold in 1976, 1980 and 1992, and were later dominated by the Americans between 1984 and 2008, except in 1992.\n\nIn 1992 at the Barcelona Games, famous players from the National Basketball Association (NBA) were allowed for the first time to represent the USA. This team, known as the “Dream Team”in the international media, was undoubtedly the best basketball team ever formed. It delighted the public and widely dominated the Olympic tournament in 1992."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Beach volleyball",
+        "icon": "beach-volleyball",
+        "athlete": "beach-volleyball-athletes",
+        "brief": "Beach volleyball started out in california as a pastime. Due to its popular appeal it developed into a thriving professional sport.",
+        "detail": []
+    }
+]
