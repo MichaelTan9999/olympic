@@ -13,14 +13,14 @@ struct GamesGrid: View {
     var body: some View {
         NavigationView {
             ScrollView (.vertical) {
-                LazyHGrid (rows: [GridItem(.adaptive(minimum: 90, maximum: 90))]) {
+                LazyVGrid (columns: Array(repeating: GridItem(), count: 4), spacing: 20) {
                     ForEach(games) { game in
                         NavigationLink (destination: GameDetail(game: game)) {
                             GameItem(game: game)
                         }
                     }
                 }
-                .padding(EdgeInsets(top: 20, leading: 0, bottom: 20, trailing: 0))
+                .padding(EdgeInsets(top: 20, leading: 10, bottom: 20, trailing: 10))
             }
             .navigationTitle("Games")
         }
@@ -45,10 +45,10 @@ struct GameItem: View {
     var body: some View {
         NavigationLink(destination: GameDetail(game: game)) {
             VStack {
-                Image(game.icon).resizable().frame(width: 80, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                Text(game.name)
-                    .foregroundColor(.black)
-                    .frame(width: 90)
+                Image(game.icon).resizable().frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//                Text(game.name)
+//                    .foregroundColor(.black)
+//                    .frame(width: 90)
             }
         }
     }
