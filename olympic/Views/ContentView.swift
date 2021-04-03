@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var games: [Game]
-    
     @State private var selectedTab: Tabs = .home
     
     enum Tabs {

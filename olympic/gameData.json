@@ -887,5 +887,198 @@
                 "content": "It is estimated there are 40 million competitive table tennis players and countless millions playing recreationally, making it the sport with the most participants worldwide. This is largely owing to its enormous popularity in China, which has become the dominant force in the sport."
             }
         ]
+    },
+    {
+        "id": 31,
+        "name": "Taekwondo",
+        "icon": "taekwondo",
+        "athlete": "taekwondo-athletes",
+        "brief": "Taekwondo is a traditional korean martial art practised in 206 countries.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "What is Taekwondo?",
+                "content": "Taekwondo is a traditional Korean martial art, which means \"the way of kicking and punching\". In taekwondo, hands and feet can be used to overcome an opponent, but the trademark of the sport is its combination of kick movements."
+            },
+            {
+                "id": 1,
+                "title": "A long history",
+                "content": "The origin of taekwondo dates back to Korea's Three-Kingdom era (c.50 BC) when Silla Dynasty warriors, the Hwarang, began to develop a martial art - Taekkyon (\"foot-hand\")."
+            },
+            {
+                "id": 2,
+                "title": "Go global",
+                "content": "During the early 20th century, taekwondo became the dominant form of martial arts practised in Korea. Subsequently taekwondo was designated as the Korean national martial art to be promoted internationally. In 1973, the World Taekwondo Federation (WTF) was founded as the worldwide legitimate governing body of the sport, and the first World Championships were held in Seoul, Korea that year."
+            },
+            {
+                "id": 3,
+                "title": "Recent Olympic history",
+                "content": "Taekwondo is one of the two Asian martial arts included on the Olympic programme. Taekwondo made its debut as a demonstration Olympic sport at the 1988 Seoul Games, and became an official medal sport at the 2000 Sydney Games."
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Tennis",
+        "icon": "tennis",
+        "athlete": "tennis-athletes",
+        "brief": "Tennis has a long history, but the birth of the game played today is thought to have taken place in england.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "11th century beginnings",
+                "content": "The earliest recognisable relative to tennis, as we know it, was \"jeu de paume\", played in 11th century France. Played in a monastery courtyard, the game used the walls and sloping roofs as part of the court and the palm of the hand to hit the ball."
+            },
+            {
+                "id": 1,
+                "title": "Tennis overtakes croquet",
+                "content": "By the late 19th century, the popularity of lawn tennis had overtaken croquet in England. For this reason, the All England Croquet Club embraced the sport and designated certain croquet lawns to be used for tennis. It was this natural supply of venues combined with the already existing framework for a racquet game that resulted in the birth of the modern game in England."
+            },
+            {
+                "id": 2,
+                "title": "An international sport",
+                "content": "In 1913, lawn tennis was becoming increasingly popular worldwide. Therefore it seemed natural that the existing National Tennis Associations should join forces to ensure the game was uniformly structured. An international conference was held between 12 nations in Paris and the International Lawn Tennis Federation (ILTF) was created."
+            },
+            {
+                "id": 3,
+                "title": "Professional dilemma",
+                "content": "Tennis has a long Olympic history but withdrew from the programme after 1924. It did not return as a medal sport until 1988. Professionals are now welcome to compete, and the Olympic competition includes men's and women's singles and men's and women's doubles."
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Trampoline",
+        "icon": "trampoline",
+        "athlete": "trampoline-athletes",
+        "brief": "Developed in 1934, trampolines were originally used to train astronauts or were used as a training tool for other sports. They soon became popular in their own right and a sport was born.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "Man-made",
+                "content": "The first modern trampoline was built by George Nissen and Larry Griswold around 1934 at the University of Iowa. It was initially used to train tumblers and astronauts and as a training tool to develop and hone acrobatic skills for other sports such as diving, gymnastics and freestyle skiing. People enjoyed the sensation so much, they began to trampoline for sheer fun, and it became popular in its own right."
+            },
+            {
+                "id": 1,
+                "title": "Spaceball",
+                "content": "Nissen and Griswold envisaged trampolines being used in a variety of new games, although they never grabbed the public’s imagination. In one, called Spaceball, two teams of two on a single trampoline with specially constructed end walls attempted to propel a ball through a middle wall, to hit a target on the other side’s end wall."
+            },
+            {
+                "id": 2,
+                "title": "Olympic debuts",
+                "content": "Trampolining made its first appearance at the 2000 Games in Sydney, with men’s and women’s competitions. The number of events (two) has remained unchanged since then."
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Triathlon",
+        "icon": "triathlon",
+        "athlete": "triathlon-athletes",
+        "brief": "Triathlon was invented as an alternative workout to track training in the 1970s, and made its olympic debut at the 2000 sydney games.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "Alternative workout",
+                "content": "Triathlon was invented in the early 1970s by the San Diego Track Club, as an alternative workout to the rigours of track training. The club's first event consisted of a 10km run, an 8km cycle and a 500m swim. Over the next decade, triathlon’s popularity continued to build, and it soon gained worldwide recognition."
+            },
+            {
+                "id": 1,
+                "title": "First world championships",
+                "content": "In 1989, World Triathlon was founded in Avignon, France, and the first official World Championships were held. The official distance for triathlon was set at a 1,500m swim, a 40km cycle and a 10km run – taken from existing events in each discipline already on the Olympic programme."
+            },
+            {
+                "id": 2,
+                "title": "World cup circuit",
+                "content": "In 1991, World Triathlon launched its first full season of the World Cup circuit. Twelve races were contested in nine different countries. More World Cup races have subsequently been added every year as the sport’s appeal continues to grow."
+            },
+            {
+                "id": 3,
+                "title": "Olympic debut",
+                "content": "Triathlon made its Olympic full medal debut at the 2000 Sydney Games. This helped the sport to become even more popular. It now has over 120 affiliated national federations around the world."
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Volleyball",
+        "icon": "volleyball",
+        "athlete": "volleyball-athletes",
+        "brief": "Volleyball was conceived as a less strenuous alternative to basketball. The sport became popular very quickly and made its olympic debut in 1964.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "A shared history",
+                "content": "Basketball and volleyball were both invented at Springfield College in Massachusetts within a few years of one another. In 1895, William G. Morgan, after watching basketball develop, decided to invent a less strenuous sport for older people. He called this game \"Mintonette\". However, a local professor noted the ball being volleyed over the net, and the sport was almost immediately renamed."
+            },
+            {
+                "id": 1,
+                "title": "Growth and development",
+                "content": "The sport quickly became popular across the world. Japan was playing the game by 1896, followed closely by other Asian countries and the sport developed rapidly over the next 20 years. A specially designed ball came into play; six-a-side play became standard and the rules mandating three hits were instituted."
+            },
+            {
+                "id": 2,
+                "title": "Olympic history",
+                "content": "No country has been truly dominant in volleyball, although the Soviet Union has won the most medals. The Japanese and the Soviet Union women’s teams dominated from 1964-1984 but since then the balance of power has shifted to Cuba, then to China and now to Brazil. The United States men’s teams were prominent in the 1980s, Italy in the 1990s and Brazil in the 2000s."
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Water polo",
+        "icon": "water-polo",
+        "athlete": "water-polo-athletes",
+        "brief": "Water polo developed into different forms in the united states and europe. The european game is now universally accepted.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "Tough beginnings",
+                "content": "Water polo is a tough sport, but when it first began it was even tougher. Fighting between players was common, if not the norm. In 1897, New Yorker Harold Reeder formulated the first American rules for discipline, which were aimed at curbing the sport’s more violent tendencies."
+            },
+            {
+                "id": 1,
+                "title": "Naming the game",
+                "content": "In the early days, the players rode on floating barrels that resembled mock horses, and swung at the ball with mallet-like sticks. This made it similar to equestrian polo, hence its name. In the United States it was termed softball water polo due to the use of an unfilled bladder as a ball."
+            },
+            {
+                "id": 2,
+                "title": "Current sport",
+                "content": "Water polo was developed in Europe and the United States as two differing sports. Ultimately, the faster, less dangerous European style predominated, and today this is the form of the game practised universally. It consists of seven-man teams playing four eight-minute periods."
+            },
+            {
+                "id": 3,
+                "title": "Olympic history",
+                "content": "Water polo made its Olympic debut at the Paris Games in 1900. It was not included in 1904 but would be present at each subsequent edition of the Olympic Games.\n\nSince then, the Hungarians have been by far the greatest ambassadors of this discipline. Between 1928 and 1980, they won medals at every Games. Between 1932 and 1976, they even won six of the 10 gold medals available.\n\nIn 2000 in Sydney, Hungary make a remarkable comeback, winning its seventh gold medal in water polo. In the same year, women’s water polo made its first official appearance at the Olympic Games, 100 years after the debut of this discipline."
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Weightlifting",
+        "icon": "weightlifting",
+        "athlete": "weightlifting-athletes",
+        "brief": "Weightlifting has ancient origins. It featured at the first modern olympic games in athens in 1896.",
+        "detail": [
+            {
+                "id": 0,
+                "title": "A long history",
+                "content": "As a means to measure strength and power, weightlifting was practised both by ancient Egyptian and Greek societies. It developed as an international sport primarily in the 19th century and is one of the few sports to have featured at the 1896 Athens Games."
+            },
+            {
+                "id": 1,
+                "title": "Power struggle",
+                "content": "At the beginning of the century, Austria, Germany and France were the most successful nations. However in the 1950s, the Soviet Union’s weightlifters rose to prominence and stayed there until the 1990s when China, Turkey, Greece and Iran catapulted to the lead. In the women’s field, China has been dominant since the very beginning."
+            },
+            {
+                "id": 2,
+                "title": "Olympic history",
+                "content": "Although men’s weightlifting has always been on the programme of the Olympic Games - except for at the 1900, 1908 and 1912 editions – women started to participate only at the 2000 Games in Sydney.\n\nThe Olympic weightlifting programme has evolved greatly over time. Today, weightlifters compete in snatch and clean and jerk, and are placed according to their total combined result. From the 2000 Olympic Games in Sydney, men have competed in eight weight categories and women in seven. This total of 15 events remains unchanged."
+            },
+            {
+                "id": 3,
+                "title": "Great champions",
+                "content": "Turkey’s and Halil Mutlu have each won three gold medals, like Greece’s Pyrros Dimas and Kakhi Kakhiasvilis. Hungarian weightlifter Imre Földi and Germany’s Ronnie Weller and Ingo Steinhöfel hold a special record: they participated in the Olympic Games five times.\n\nIn women’s weightlifting, China’s Chen Yanqing and Liu Chunhong have both won two gold medals.\n\nWeightlifting has been present at 23 editions of the Games, and has placed on the podium champions from 32 different National Olympic Committees (NOCs)."
+            }
+        ]
     }
 ]
