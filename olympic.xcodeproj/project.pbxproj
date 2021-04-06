@@ -18,6 +18,8 @@
 		754B7A372612F4A100E1A5BA /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B7A362612F4A100E1A5BA /* Loader.swift */; };
 		754B7A3A2612F4BB00E1A5BA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B7A392612F4BB00E1A5BA /* Game.swift */; };
 		754B7A3D2612FA6B00E1A5BA /* gameData.json in Resources */ = {isa = PBXBuildFile; fileRef = 754B7A3C2612FA6B00E1A5BA /* gameData.json */; };
+		75A08B12261C4B2200B8D2E4 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A08B11261C4B2200B8D2E4 /* Favorites.swift */; };
+		75A08B34261C572000B8D2E4 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A08B33261C572000B8D2E4 /* Toast.swift */; };
 		75AAF9B32610BCEF002DED4F /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF9B22610BCEF002DED4F /* GameDetail.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		754B7A362612F4A100E1A5BA /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		754B7A392612F4BB00E1A5BA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		754B7A3C2612FA6B00E1A5BA /* gameData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gameData.json; sourceTree = "<group>"; };
+		75A08B11261C4B2200B8D2E4 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		75A08B33261C572000B8D2E4 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		75AAF9B22610BCEF002DED4F /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +79,7 @@
 				7511D167260E210E00E811FA /* Preview Content */,
 				754B7A362612F4A100E1A5BA /* Loader.swift */,
 				754B7A3C2612FA6B00E1A5BA /* gameData.json */,
+				75A08B11261C4B2200B8D2E4 /* Favorites.swift */,
 				754B7A392612F4BB00E1A5BA /* Game.swift */,
 			);
 			path = olympic;
@@ -96,6 +101,7 @@
 				7511D174260E2E7700E811FA /* GamesGrid.swift */,
 				75AAF9B22610BCEF002DED4F /* GameDetail.swift */,
 				7511D177260E2E9700E811FA /* Countdown.swift */,
+				75A08B33261C572000B8D2E4 /* Toast.swift */,
 				7511D17A260E2EA200E811FA /* About.swift */,
 			);
 			path = Views;
@@ -174,10 +180,12 @@
 				75AAF9B32610BCEF002DED4F /* GameDetail.swift in Sources */,
 				754B7A3A2612F4BB00E1A5BA /* Game.swift in Sources */,
 				7511D164260E210E00E811FA /* ContentView.swift in Sources */,
+				75A08B12261C4B2200B8D2E4 /* Favorites.swift in Sources */,
 				7511D17B260E2EA200E811FA /* About.swift in Sources */,
 				7511D172260E2E2700E811FA /* Home.swift in Sources */,
 				7511D175260E2E7700E811FA /* GamesGrid.swift in Sources */,
 				7511D162260E210E00E811FA /* olympicApp.swift in Sources */,
+				75A08B34261C572000B8D2E4 /* Toast.swift in Sources */,
 				754B7A372612F4A100E1A5BA /* Loader.swift in Sources */,
 				7511D178260E2E9700E811FA /* Countdown.swift in Sources */,
 			);

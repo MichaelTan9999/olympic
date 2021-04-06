@@ -11,7 +11,8 @@ let chapterTitlePadding : EdgeInsets = EdgeInsets(top: 5, leading: 0, bottom: 5,
 
 struct GameDetail: View {
     var game: Game
-    
+    @ObservedObject var favorites = Favorites()
+    @State var isFavorite: Bool = false
     var body: some View {
 
         ScrollView (.vertical) {
@@ -25,6 +26,15 @@ struct GameDetail: View {
                             .shadow(radius: 7)
                         Text(game.name).fontWeight(.black)
                         Spacer()
+                        Button(action: {
+                            if(favorites.contains(id: game.id)) {
+                                favorites.remove(id: game.id)
+                            } else {
+                                favorites.add(id: game.id)
+                            }
+                        }) {
+                            Image(systemName: favorites.contains(id: game.id) ? "star.fill" : "star").foregroundColor(.yellow)
+                        }.padding()
                     }.padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
                     VStack (alignment: .leading) {
                         Text(game.brief)
