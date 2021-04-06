@@ -6,9 +6,17 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct ContentView: View {
     var games: [Game]
+    
+    @Environment(\.managedObjectContext) private var viewContext
+
+    @FetchRequest(entity: Sport.entity(), sortDescriptors: [])
+
+    var favoriteSports: FetchedResults<Sport>
+    
     @State private var selectedTab: Tabs = .home
     
     enum Tabs {
@@ -22,7 +30,7 @@ struct ContentView: View {
         TabView(selection: $selectedTab,
                 content:  {
                     Home().tabItem {
-                        Label("Home", systemImage: "house")
+                        Label("Home\(favoriteSports.count)", systemImage: "house")
                     }.tag(Tabs.home)
                     GamesGrid(games: games).tabItem {
                         Label("Games", systemImage: "sportscourt")
@@ -40,5 +48,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(games: ModelData().games)
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
