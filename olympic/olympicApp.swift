@@ -9,11 +9,9 @@ import SwiftUI
 
 @main
 struct olympicApp: App {
-    let persistenceController = PersistenceController.shared
-    
     var body: some Scene {
         WindowGroup {
-            ContentView(games: ModelData().games).environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ContentView(games: ModelData().games)
         }
     }
 }
