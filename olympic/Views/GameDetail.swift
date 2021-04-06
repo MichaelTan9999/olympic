@@ -7,10 +7,20 @@
 
 import SwiftUI
 
-let chapterTitlePadding : EdgeInsets = EdgeInsets(top: 5, leading: 0, bottom: 5, trailing: 0)
-
 struct GameDetail: View {
     var game: Game
+
+    @Environment(\.managedObjectContext) private var viewContext
+
+    @FetchRequest(entity: Sport.entity(), sortDescriptors: [
+        NSSortDescriptor(keyPath: \Sport.sportIndex, ascending: true)
+    ])
+
+    var favoriteSports: FetchedResults<Sport>
+    
+    
+    let chapterTitlePadding: EdgeInsets = EdgeInsets(top: 5, leading: 0, bottom: 5, trailing: 0)
+        @State var isFavorite: Bool = false
     
     var body: some View {
 
@@ -25,12 +35,20 @@ struct GameDetail: View {
                             .shadow(radius: 7)
                         Text(game.name).fontWeight(.black)
                         Spacer()
+                        Button(action: {
+                            isFavorite = !isFavorite
+                        }, label: {
+                            Image(systemName: isFavorite ? "star.fill" : "star" ).foregroundColor(.yellow)
+                        }).padding()
                     }.padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+                    ForEach(favoriteSports) { sport in
+                        Text("\(sport.sportIndex)")
+                    }
                     VStack (alignment: .leading) {
                         Text(game.brief)
                             .foregroundColor(.gray)
                             .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                        ForEach(game.detail) {paragraph in
+                        ForEach(game.detail) { paragraph in
                             Text(paragraph.title)
                                 .bold()
                                 .padding(chapterTitlePadding)
@@ -46,9 +64,7 @@ struct GameDetail: View {
 
 struct GameDetail_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            GameDetail(game: ModelData().games[0])
-            GameDetail(game: ModelData().games[2])
-        }
+        GameDetail(game: ModelData().games[0])
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

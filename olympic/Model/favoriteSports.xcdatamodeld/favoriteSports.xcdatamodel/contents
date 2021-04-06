@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Sport" representedClassName="Sport" syncable="YES" codeGenerationType="class">
+        <attribute name="addedDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="sportIndex" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <fetchIndex name="byPropertyIndex">
+            <fetchIndexElement property="sportIndex" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <fetchRequest name="fetchRequest" entity="Sport"/>
+    <elements>
+        <element name="Sport" positionX="-63" positionY="-18" width="128" height="59"/>
+    </elements>
+</model>
