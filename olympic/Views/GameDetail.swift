@@ -13,6 +13,8 @@ struct GameDetail: View {
     var game: Game
     @ObservedObject var favorites = Favorites()
     @State var isFavorite: Bool = false
+    @State var isShowFavoriteToast: Bool = false
+    @State var isShowUnfavoriteToast: Bool = false
     var body: some View {
 
         ScrollView (.vertical) {
@@ -28,8 +30,10 @@ struct GameDetail: View {
                         Spacer()
                         Button(action: {
                             if(favorites.contains(id: game.id)) {
+                                isShowUnfavoriteToast = true
                                 favorites.remove(id: game.id)
                             } else {
+                                isShowFavoriteToast = true
                                 favorites.add(id: game.id)
                             }
                         }) {
@@ -51,6 +55,8 @@ struct GameDetail: View {
                 }
                 .navigationTitle(game.name)
             }
+        .overlay(overlayView: Toast.init(dataModel: Toast.ToastDataModel.init(title: "Favorite", image: "bookmark", iconColor: Color.yellow), show: $isShowFavoriteToast), show: $isShowFavoriteToast)
+        .overlay(overlayView: Toast.init(dataModel: Toast.ToastDataModel.init(title: "Unfavorite", image: "bookmark.slash", iconColor: Color.yellow), show: $isShowUnfavoriteToast), show: $isShowUnfavoriteToast)
     }
 }
 

@@ -10,36 +10,32 @@ import SwiftUI
 struct Toast: View {
     
     struct ToastDataModel {
-        var title:String
-        var image:String
-        
+        var title: String
+        var image: String
+        var iconColor: Color
     }
     let dataModel: ToastDataModel
     @Binding var show: Bool
     var body: some View {
         VStack {
             HStack {
-                Image(systemName: dataModel.image)
+                Image(systemName: dataModel.image).foregroundColor(.yellow)
                 Text(dataModel.title)
             }.font(.headline)
             .foregroundColor(.primary)
-                .padding([.top,.bottom],20)
-                .padding([.leading,.trailing],40)
+                .padding([.top,.bottom], 20)
+                .padding([.leading,.trailing], 20)
             .background(Color(UIColor.secondarySystemBackground))
             .clipShape(Capsule())
-            Spacer()
         }
-        .animation(.easeInOut)
+        .animation(.none)
         .frame(width: UIScreen.main.bounds.width / 1.25)
-        .transition(AnyTransition.move(edge: .top).combined(with: .opacity))
         .onAppear(perform: {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                withAnimation {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     self.show = false
-                }
+                
             }
         })
-        .transition(AnyTransition.move(edge: .top).combined(with: .opacity))
     }
 }
 
@@ -54,7 +50,7 @@ struct OverlayDemo: View {
                     }
                 }
         }
-        .overlay(overlayView: Toast.init(dataModel: Toast.ToastDataModel.init(title: "toast message", image: "checkmark"), show: $showToastOverlay)
+        .overlay(overlayView: Toast.init(dataModel: Toast.ToastDataModel.init(title: "toast message", image: "checkmark", iconColor: Color.yellow), show: $showToastOverlay)
         , show: $showToastOverlay)
         
     }
