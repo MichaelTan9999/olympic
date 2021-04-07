@@ -1,4 +1,4 @@
-# Olympic - an iOS app introducing the Olympic games
+# Olympic - an iOS app introducing the Olympic Games
 
 This app is made under the one of the instructions of the Comprehensive Design Course of the *School of Information and Software Engineering (SISE)* of *University of Electronic Science and Technology of China (UESTC)*, of which the supervisor is Yue, Feng.
 
