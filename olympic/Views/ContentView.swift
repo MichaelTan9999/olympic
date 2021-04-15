@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    var games: [Game]
     @State private var selectedTab: Tabs = .home
     
     enum Tabs {
@@ -24,7 +23,7 @@ struct ContentView: View {
                     Home().tabItem {
                         Label("Home", systemImage: "house")
                     }.tag(Tabs.home)
-                    GamesGrid(games: games).tabItem {
+                    GamesGrid().tabItem {
                         Label("Games", systemImage: "sportscourt")
                     }.tag(Tabs.games)
                     Countdown().tabItem {
@@ -39,6 +38,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(games: ModelData().games)
+        ContentView()
     }
 }

@@ -19,6 +19,7 @@
 		754B7A3A2612F4BB00E1A5BA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754B7A392612F4BB00E1A5BA /* Game.swift */; };
 		754B7A3D2612FA6B00E1A5BA /* gameData.json in Resources */ = {isa = PBXBuildFile; fileRef = 754B7A3C2612FA6B00E1A5BA /* gameData.json */; };
 		75AAF9B32610BCEF002DED4F /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF9B22610BCEF002DED4F /* GameDetail.swift */; };
+		75E9920E26283233002A13A3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9920D26283233002A13A3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		754B7A392612F4BB00E1A5BA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		754B7A3C2612FA6B00E1A5BA /* gameData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gameData.json; sourceTree = "<group>"; };
 		75AAF9B22610BCEF002DED4F /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		75E9920D26283233002A13A3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				7511D163260E210E00E811FA /* ContentView.swift */,
 				7511D171260E2E2700E811FA /* Home.swift */,
+				75E9920D26283233002A13A3 /* MapView.swift */,
 				7511D174260E2E7700E811FA /* GamesGrid.swift */,
 				75AAF9B22610BCEF002DED4F /* GameDetail.swift */,
 				7511D177260E2E9700E811FA /* Countdown.swift */,
@@ -178,6 +181,7 @@
 				7511D172260E2E2700E811FA /* Home.swift in Sources */,
 				7511D175260E2E7700E811FA /* GamesGrid.swift in Sources */,
 				7511D162260E210E00E811FA /* olympicApp.swift in Sources */,
+				75E9920E26283233002A13A3 /* MapView.swift in Sources */,
 				754B7A372612F4A100E1A5BA /* Loader.swift in Sources */,
 				7511D178260E2E9700E811FA /* Countdown.swift in Sources */,
 			);

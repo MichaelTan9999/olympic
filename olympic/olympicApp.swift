@@ -11,7 +11,7 @@ import SwiftUI
 struct olympicApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(games: ModelData().games)
+            ContentView()
         }
     }
 }

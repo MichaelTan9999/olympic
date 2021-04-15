@@ -10,7 +10,7 @@ import SwiftUI
 let chapterTitlePadding : EdgeInsets = EdgeInsets(top: 5, leading: 0, bottom: 5, trailing: 0)
 
 struct GameDetail: View {
-    var game: Game
+    let game: Game
     var body: some View {
 
         ScrollView (.vertical) {
