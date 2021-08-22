@@ -28,7 +28,7 @@ struct About: View {
                     }.padding(labelPaddingStyle)
                     HStack {
                         Image(systemName: "envelope")
-                        Text("thr205@hotmail.com")
+                        Text("thr205@michaeltan.org")
                     }.padding(labelPaddingStyle)
                     HStack {
                         Image(systemName: "swift")

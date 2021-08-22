@@ -13,7 +13,7 @@ struct Home: View {
     var body: some View {
         NavigationView {
             VStack (alignment: .center) {
-                MapView().frame(height: 400).ignoresSafeArea(edges: .top).padding(.bottom, -140)
+
                 Text("Paris 2024").bold()
                 ScrollView {
                     HStack {
